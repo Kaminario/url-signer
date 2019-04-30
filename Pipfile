@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-baseconv = "*"
+
+
+[dev-packages]
+bumpversion = "*"
+flake8 = "*"
+pygments = "*"
+"collective.checkdocs" = "*"
+autopep8 = "*"
+isort = "*"
+yamllint = "*"
+
+
+[requires]
+python_version = "3.7"
