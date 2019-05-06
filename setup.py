@@ -11,7 +11,7 @@ with open("LICENSE") as f:
 
 setup(
     name="url-signer",
-    version="0.0.1",
+    version="0.0.2",
     description="The simplest way to sign the url",
     long_description=readme,
     author="Ilya Levin",
