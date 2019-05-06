@@ -18,7 +18,7 @@ default_valid_for = 600
 
 def sign(key: str, **kwargs):
     msg = json.dumps(kwargs, sort_keys=True)
-    mac = hmac.digest(key.encode(), msg.encode(), hashlib.blake2b)
+    mac = hmac.new(key.encode(), msg.encode(), hashlib.blake2b).digest()
     mac_encoded = baseconv.base62.encode(int.from_bytes(mac, "big"))
     return mac_encoded
 
