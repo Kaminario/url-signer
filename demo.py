@@ -1,5 +1,5 @@
 import url_signer
-
+from url_signer.gcp import CloudStorageURLSigner
 
 def main():
 
