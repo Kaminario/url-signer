@@ -19,7 +19,7 @@ setup(
     url="https://github.com/Kaminario/signer",
     license=license,
     packages=find_packages(),
-    install_requires=("python-baseconv==1.2.2",),
+    install_requires=("python-baseconv>=1.2.0",),
     classifiers=[
         "Development Status :: 1 - Production/Stable",
         "Intended Audience :: Developers",
